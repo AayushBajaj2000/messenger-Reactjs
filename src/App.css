@@ -1,0 +1,32 @@
+
+.Input{
+  position: fixed;
+  bottom: 50px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  background-color: #d3d3d3;
+  border-radius: 25px;
+  padding: 20px;
+}
+.Input__text{
+  flex: 1;
+}
+.Input__button{
+  flex: 0;
+}
+.center{
+  text-align: center;
+}
+.App__logo{
+  margin-left: 50%;
+  font-size: large;
+}
+.App__messages{
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  overflow-y:scroll; 
+  display:flex; 
+  flex-direction:column-reverse;
+}
